@@ -25,7 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
             // Create remove button
             const removeButton = document.createElement('button');
             removeButton.textContent = "Remove";
-            removeButton.className = 'remove-btn';
+            // Use classList.add to assign the class name
+            removeButton.classList.add('remove-btn');
             
             // Assign onclick event to remove button
             removeButton.onclick = function() {
